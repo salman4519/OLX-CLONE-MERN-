@@ -48,7 +48,7 @@ const Details = () => {
                   </button>
                 </div>
                 <div className="space-y-4">
-                  <p className="text-3xl font-bold text-green-600">${product?.price}</p>
+                  <p className="text-3xl font-bold text-green-600">₹{product?.price}</p>
                   <p className="text-gray-600">{product?.description}</p>
                   <div className="flex items-center gap-4 text-sm text-gray-500">
                     <div className="flex items-center">
